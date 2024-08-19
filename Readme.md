@@ -1,7 +1,7 @@
 # Проект «Большое путешествие»
 
 * Студент: [Kristina Lingthep](https://up.htmlacademy.ru/ecmascript-individual/2/user/1920633).
-* Наставник: `Неизвестно`.
+* Наставник: [Семён Якушев](https://htmlacademy.ru/profile/id1118791).
 
 ---
 
