@@ -9,13 +9,9 @@ function createEditTemplate(point, destinations) {
 
   function createOffersListTemplate() {
     const offersObject = mockOffers.find((element) => element.type === type);
-    if (type === 'sightseeing') {
-      return '';
-    }
-    const offersArray = [];
 
-    for (const key of offersObject.offers) {
-      offersArray.push(key);
+    if (offersObject.offers.length === 0) {
+      return '';
     }
 
     return (
@@ -23,10 +19,10 @@ function createEditTemplate(point, destinations) {
         <h3 class="event__section-title  event__section-title--offers">Offers</h3>
 
         <div class="event__available-offers">
-           ${offersArray.map((offer) => (`
+          ${offersObject.offers.map((offer) => (`
             <div class="event__offer-selector">
-              <input class="event__offer-checkbox  visually-hidden" id="event-offer-luggage-1" type="checkbox" name="event-offer-luggage" ${point.offers.includes(offer.id) ? 'checked' : ''}>
-              <label class="event__offer-label" for="event-offer-luggage-1">
+              <input class="event__offer-checkbox  visually-hidden" id="${offer.id}" type="checkbox" name="${offer.id}" ${point.offers.includes(offer.id) ? 'checked' : ''}>
+              <label class="event__offer-label" for="${offer.id}">
                 <span class="event__offer-title">${offer.title}</span>
                 +€&nbsp;
                 <span class="event__offer-price">${offer.price}</span>

@@ -3,17 +3,17 @@ const mockOffers = [
     type: 'taxi',
     offers: [
       {
-        id: 'a4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-a',
         title: 'Upgrade to business class',
         price: 120
       },
       {
-        id: 'b4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-b',
         title: 'Upgrade to comfort class',
         price: 80
       },
       {
-        id: 'c4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-c',
         title: 'Add luggage',
         price: 50
       }
@@ -23,17 +23,17 @@ const mockOffers = [
     type: 'bus',
     offers: [
       {
-        id: 'd4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-d',
         title: 'Upgrade to comfort class',
         price: 35
       },
       {
-        id: 'e4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-e',
         title: 'Choose seats',
         price: 15
       },
       {
-        id: 'f4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-f',
         title: 'Add luggage',
         price: 50
       }
@@ -43,22 +43,22 @@ const mockOffers = [
     type: 'train',
     offers: [
       {
-        id: 'g4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-g',
         title: 'Express',
         price: 120
       },
       {
-        id: 'h4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-h',
         title: 'Upgrade to business class',
         price: 100
       },
       {
-        id: 'i4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-i',
         title: 'Upgrade to comfort class',
         price: 60
       },
       {
-        id: 'j4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-j',
         title: 'Economy class',
         price: 40
       }
@@ -68,17 +68,17 @@ const mockOffers = [
     type: 'ship',
     offers: [
       {
-        id: 'k4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-k',
         title: 'Upgrade to a business class',
         price: 200
       },
       {
-        id: 'l4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-l',
         title: 'Buy spa service',
         price: 150
       },
       {
-        id: 'm4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-m',
         title: 'Buy wi-fi',
         price: 110
       }
@@ -88,12 +88,12 @@ const mockOffers = [
     type: 'drive',
     offers: [
       {
-        id: 'n4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-n',
         title: 'Sports car',
         price: 200
       },
       {
-        id: 'o4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-o',
         title: 'SUV',
         price: 150
       }
@@ -103,22 +103,22 @@ const mockOffers = [
     type: 'flight',
     offers: [
       {
-        id: 'p4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-p',
         title: 'Upgrade to a business class',
         price: 210
       },
       {
-        id: 'q4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-q',
         title: 'Upgrade to comfort class',
         price: 160
       },
       {
-        id: 'r4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-r',
         title: 'Add luggage',
         price: 50
       },
       {
-        id: 's4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-s',
         title: 'Add meal',
         price: 30
       }
@@ -128,17 +128,17 @@ const mockOffers = [
     type: 'check-in',
     offers: [
       {
-        id: 't4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-t',
         title: 'Change check-out time',
         price: 90
       },
       {
-        id: 'u4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-u',
         title: 'Add breakfast',
         price: 20
       },
       {
-        id: 'v4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-v',
         title: 'Laundry',
         price: 45
       }
@@ -152,22 +152,22 @@ const mockOffers = [
     type: 'restaurant',
     offers: [
       {
-        id: 'w4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-w',
         title: 'Breakfast',
         price: 30
       },
       {
-        id: 'x4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-x',
         title: 'Brunch',
         price: 40
       },
       {
-        id: 'y4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-y',
         title: 'Lunch',
         price: 45
       },
       {
-        id: 'z4c3e4e6-9053-42ce-b747-e281314baa31',
+        id: 'event-offer-z',
         title: 'Dinner',
         price: 50
       }

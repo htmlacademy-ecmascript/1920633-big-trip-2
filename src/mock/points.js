@@ -10,8 +10,8 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: false,
     offers: [
-      'a4c3e4e6-9053-42ce-b747-e281314baa31',
-      'c4c3e4e6-9053-42ce-b747-e281314baa31'
+      'event-offer-a',
+      'event-offer-c'
     ],
     type: 'taxi'
   },
@@ -23,7 +23,7 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: true,
     offers: [
-      'f4c3e4e6-9053-42ce-b747-e281314baa31'
+      'event-offer-f'
     ],
     type: 'bus'
   },
@@ -35,7 +35,7 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: true,
     offers: [
-      'g4c3e4e6-9053-42ce-b747-e281314baa31',
+      'event-offer-g',
     ],
     type: 'train'
   },
@@ -47,7 +47,7 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: false,
     offers: [
-      'm4c3e4e6-9053-42ce-b747-e281314baa31'
+      'event-offer-m'
     ],
     type: 'ship'
   },
@@ -59,7 +59,7 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: false,
     offers: [
-      'n4c3e4e6-9053-42ce-b747-e281314baa31'
+      'event-offer-n'
     ],
     type: 'drive'
   },
@@ -71,9 +71,9 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: true,
     offers: [
-      'p4c3e4e6-9053-42ce-b747-e281314baa31',
-      'r4c3e4e6-9053-42ce-b747-e281314baa31',
-      's4c3e4e6-9053-42ce-b747-e281314baa31',
+      'event-offer-p',
+      'event-offer-r',
+      'event-offer-s',
     ],
     type: 'flight'
   },
@@ -85,7 +85,7 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: false,
     offers: [
-      'u4c3e4e6-9053-42ce-b747-e281314baa31'
+      'event-offer-u'
     ],
     type: 'check-in'
   },
@@ -107,9 +107,9 @@ const mockPoints = [
     destination: getRandomArrayElement(DESTINATIONS),
     isFavorite: false,
     offers: [
-      'x4c3e4e6-9053-42ce-b747-e281314baa31',
-      'y4c3e4e6-9053-42ce-b747-e281314baa31',
-      'z4c3e4e6-9053-42ce-b747-e281314baa31'
+      'event-offer-x',
+      'event-offer-y',
+      'event-offer-z'
     ],
     type: 'restaurant'
   }

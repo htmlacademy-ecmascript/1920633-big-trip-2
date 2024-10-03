@@ -1,29 +1,34 @@
 import {DATE_FORMATS} from '../const';
 import {createElement} from '../render';
 import {getTimeDifference, humanizeEventDate} from '../util';
-import {arrayOffers} from '../mock/offers';
+import {mockOffers} from '../mock/offers';
 
 function createPointTemplate(point) {
-  const {type, basePrice, dateFrom, dateTo, destination, isFavorite, offers: [id]} = point;
+  const {type, basePrice, dateFrom, dateTo, destination, isFavorite, offers} = point;
 
   function createOfferTemplate() {
-    const offersObject = arrayOffers.find((element) => element.id === id);
-    if (type === 'sightseeing') {
+    const offersObject = mockOffers.find((element) => element.type === type);
+
+    if (offersObject.offers.length === 0) {
       return '';
     }
-    const {title, price} = offersObject;
+
+    const selectedOffers = offersObject.offers.filter((element) => offers.includes(element.id));
 
     return (
       `<h4 class="visually-hidden">Offers:</h4>
         <ul class="event__selected-offers">
+        ${selectedOffers.map((offer) => (`
           <li class="event__offer">
-            <span class="event__offer-title">${title}</span>
+            <span class="event__offer-title">${offer.title}</span>
             &plus;&euro;&nbsp;
-            <span class="event__offer-price">${price}</span>
+            <span class="event__offer-price">${offer.price}</span>
           </li>
+          `)).join('')}
         </ul>`
     );
   }
+
   const favoriteClassName = isFavorite ? 'event__favorite-btn--active' : '';
 
   return (
